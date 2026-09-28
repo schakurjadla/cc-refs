@@ -84,12 +84,27 @@ Keep identical: slightly high camera angle looking down through the window, subt
 
 ---
 
-## Kurzfassung für einen einzigen Durchlauf (ganzes Video)
+## Finaler Prompt – ganzes Video in einem Durchlauf (so verwendet)
 
-Nur verwenden, wenn du trotzdem alles auf einmal machen willst. Dann Außen- **und** Innenfotos mitgeben.
+**Referenzbilder in dieser Reihenfolge** (liegen lokal in `referenzen/`, nicht im Repo):
+1. `ref_B_3-4_vorne_links.jpg`: Außenansicht, Fahrerseite, Front nach links
+2. `ref_C_innenraum_lenkrad.jpg`: Lenkrad, Mittelbildschirm, Fahrertür innen
+3. `ref_A_front_tuer_offen.jpg`: Front mit Lichtleiste und offener Tür
 
 ```
-Replace the dark green Opel Corsa in every shot with a Tesla Cybertruck matching the reference images: brushed stainless-steel angular body, front LED light bar, flush handle-less doors, black aero wheels, no logos or stickers. Inside: Cybertruck minimalist interior with the squircle steering wheel (plain centre pad, no Opel logo), flat dashboard without instrument cluster, large horizontal centre touchscreen, no ignition key. Keep the man, his clothes, every movement, the camera motion, the three cuts, the sea-of-clouds volcanic location, the lighting direction, shadows and the warm-teal film grade exactly the same. Correct pickup-truck scale relative to the man. The steel reflects the teal sky and the warm brown ground.
+Replace the dark green Opel Corsa hatchback with a Tesla Cybertruck in the entire video, matching the reference images. Keep the man, his face, clothes and every movement, the camera motion, the timing, the two hard cuts, the location, lighting and colour grade exactly as in the source. Only the car and its interior change.
+
+CYBERTRUCK LOOK (all shots): flat angular brushed stainless-steel body panels, clean and dry, no raindrops or water spots, one sharp roofline peak, triangular side profile, full-width horizontal LED light bar at the front glowing softly white, flush doors without handles, thick angular black window frames, black multi-spoke off-road wheels with chunky all-terrain tyres, black angular wheel arches. No badges, no stickers, no "La Gomera" logo. Correct full-size pickup scale: noticeably longer and taller than the hatchback, roof peak at about the man's head height. The steel reflects the scene: teal sky on the upper panels, warm brown ground on the lower panels, hard specular sun highlights on the edges.
+
+CYBERTRUCK INTERIOR (shots 2 and 3, exactly as in the interior reference image): a squircle steering wheel with flat top and bottom and a thick black grip, a rectangular black centre pad with a small embossed Cybertruck silhouette (no Opel logo), and round scroll buttons on the left and right spokes. The large landscape 18.5-inch touchscreen floats to the right of the wheel. There is no instrument cluster: a long, flat, low grey dashboard runs across the cabin. The dark grey soft-touch door panel has a window switch cluster, with a black triangular side mirror, a thick raked A-pillar and a huge, almost flat windshield. No ignition key, no keychain.
+
+SHOT 1 (0.0-4.2s): Static wide shot at eye level with slight handheld drift. The Cybertruck is parked in exactly the car's position, in side profile, front pointing left, driver side facing the camera, on a flat reddish-brown volcanic gravel plateau above a sea of clouds. The sun is high and behind the truck to the left (backlight): the side facing the camera is in soft shade and a long hard shadow falls forward and to the right. The distant island on the far left, the dry golden grass tuft on the right edge, the teal sky with wispy streaks and the lens flare at the bottom right all stay. The man in the white t-shirt and cream shorts walks from behind the truck to the front driver door, swings the angular stainless door open and climbs up into the cab with a slightly higher step.
+
+SHOT 2 (4.2-9.9s): Handheld interior camera very close to the inside of the open Cybertruck driver door, with gravel visible through the gap. His hand pulls the door shut from the bottom of the frame and the image falls into near-darkness with faint highlights on the door switches. Then a fast whip-pan up and right with motion blur, past the triangular side mirror and the raked A-pillar, across the flat dashboard to the squircle steering wheel from the driver's point of view, with the touchscreen visible on the right. Through the windshield: the same mountain road, metal guardrail and dry brown hillside in bright sun. The shot ends close on the steering-wheel centre pad.
+
+SHOT 3 (9.9-15.5s): Slightly high outside camera looking down through the lowered Cybertruck driver window. The foreground frame is the stainless-steel door and the thick black window frame. He sits in the driver's seat, pulls the seatbelt across his chest with his left hand and clicks it in at his right hip, then grips the top of the squircle steering wheel with his left hand while his right hand reaches forward and taps the large centre touchscreen. Through the passenger window: the same road, guardrail and reddish-brown rocky hillside in harsh bright sunlight.
+
+STYLE: warm-teal cinematic film grade, soft lifted blacks, creamy highlights, 50 fps, 1080p. No text, no watermark, no extra objects or people.
 ```
 
 ---
