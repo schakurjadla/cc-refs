@@ -75,12 +75,24 @@ Preview text: `Excuse me, sorry, I think there is a small mistake here. This can
 
 | # | Step | Tool | Setting |
 |---|---|---|---|
-| 1 | Choose the POD blank **first** (colour as close as possible to faded red) | Printify / Gelato / SPOD | ~ Comfort Colors 1566 garment-dyed crewneck in "Brick" or similar; check EU production |
+| 1 | Choose the POD blank **first**, then lock the colour (see D1a) | Printful or Printify | **Comfort Colors 1566** garment-dyed crewneck, colour **Crimson** (fallback: Terracotta) |
 | 2 | Generate the motif, no text | `gpt_image_2_5` | 2k, 1:1, quality high, **`background: transparent`** |
 | 3 | Set the print file | Figma (I'll build it) | Frame 3600 × 4200 px (= 30 × 35 cm at 300 dpi), motif on top, text below |
 | 4 | Export | Figma | PNG, transparent, 300 dpi |
 | 5 | Mockup via image-to-image | `gpt_image_2_5`, references: blank sweater photo + print PNG | 2k, 4:5 |
 | 6 | Upload to the shop + order a sample | Printify | Sample = real photo for the video ending |
+
+### D1a: the blank (decided)
+
+**Pick: Comfort Colors 1566, colour Crimson.** It's the garment-dyed crewneck most POD shops carry, and garment-dyed means it already looks washed and faded, like the original. Crimson is its closest colour to the faded Turkish red. "Brick" (the old note) is out: it's more of a wine red, and it's usually not offered for the 1566 by POD shops.
+
+Check before you generate anything (2 minutes, in the shop dashboard):
+1. Printful (first choice, has its own production in Spain and Latvia) → catalog → search "Comfort Colors 1566". Is **Crimson** there? Then look at the shipping/production location for Germany.
+2. If Printful doesn't have it, or only ships it from the US: Printify → search "1566" → pick a provider that has Crimson and ships to Germany.
+3. If Crimson is nowhere: **Terracotta** (more orange-red, also works with the turquoise of the nazar).
+4. If no 1566 at all: any **plain red crewneck** the shop produces in Europe (often Stanley/Stella). It won't be garment-dyed, so the worn look comes only from the print texture.
+
+**Colour lock:** open the chosen colour in the shop, take the hex from the swatch (or the colour picker on the product photo), and replace `#B23A2E` with it **everywhere in this file** (find & replace, 7 places) before you generate the blank, the mockup or the host. That way the AI sweater, the character's sweater and the real sweater are the same red. When the sample arrives, compare it to the mockup; if it's off, regenerate D4/D5 with the hex taken from a photo of the sample.
 
 ### D1b: request to Claude (on camera in the video)
 
