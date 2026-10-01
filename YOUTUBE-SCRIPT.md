@@ -1,4 +1,4 @@
-# YouTube Script: Turkish Time (v5, 01.10.2026)
+# YouTube Script: Turkish Time (v5.1, 01.10.2026)
 
 **Format:** "Money experiment" like the reference (LlhTEttKcwQ, 33:19, 4.39M). You only ever do two things: **talk into the camera** or **work on the laptop and talk while you do it**. Nothing analog, no notes on paper, no extra B-roll shoots. Every list, number, table and checklist is a **motion graphic added in the edit**.
 **Tools on screen:** Higgsfield web app (no API in the video) · Claude for prompts · ElevenLabs website for voices.
@@ -11,12 +11,12 @@
 | Tag | Where you look | What you do | What to say |
 |---|---|---|---|
 | 🎥 **CAM** | Into the lens | Nothing else, hands calm | The quoted line, **word for word** |
-| 💻 **LAPTOP** | At the screen | The real work, screen recording runs | **Bold quote** = must say (can be in your words). `•` bullets = talk freely, just react |
+| 💻 **LAPTOP** | At the screen | The real work, screen recording runs | **Bold quote** = say this (your own words are fine). Lines starting with *Do:* are instructions for you, **not** spoken |
 | ↪ | Turn from screen to lens | — | Cue for the switch |
 | 🎬 **MG-xx** | — | Nothing. Added in the edit | — (see the [MG list](#motion-graphics-list-for-the-edit) at the end) |
 | `[FILL]` | — | — | Real number after the 7 days |
 
-**Rule of thumb:** a 🎥 line is a sentence for the viewer. A 💻 line is you thinking out loud. If you lose the line on 🎥, look down, breathe, look back into the lens and say it again. Cut later.
+**Rule of thumb:** everything in quotes gets said, nothing else. A 🎥 line is a sentence for the viewer, word for word. A 💻 line is you thinking out loud, so it can come out a bit different. If you lose the line on 🎥, look down, breathe, look back into the lens and say it again. Cut later.
 
 ### Before every recording session (2 min)
 1. Camera **and** screen recording on. Both run the whole session, also during 💻 parts (the editor can use your face as picture-in-picture).
@@ -116,22 +116,18 @@ All camera. The list is a motion graphic, you don't type or write anything.
 
 ---
 
-## Step 2. Find The Trend · ~2:30
+## Step 2. Find The Trend · ~1:30
 
 **2.1** 💻 LAPTOP · TikTok, the dragon shirt post
-> **"It started with one shirt: 'You met me at a very Chinese time in my life'."**
-- A drawn dragon, the sentence in serif underneath
-- It went viral, and the brand behind it sold the shirt
+> **"It started with one shirt: 'You met me at a very Chinese time in my life.' It went viral, and the brand behind it sold the shirt."**
 
 🎬 MG-08: view count pill "1.9M" on @childrenofkhanlive.
 
-**2.2** 💻 LAPTOP · Swiss reel @swiss0762, step through the frames
-> **"Then someone from Switzerland made a video for it. Nineteen seconds, six shots."**
-- His friend visits Switzerland, gets the bill, asks if there's a mistake
-- **"That's just Switzerland, you'll get used to it."** (read it out, deadpan)
-- Car, chalet, then the line into the camera. Link in the bio, sweater for sale
+**2.2** 💻 LAPTOP · Swiss reel @swiss0762
+*Do:* let the reel play once in full, with sound. Don't talk over it, don't explain it. The viewer gets the joke by watching. Pause on the last frame, then:
+> **"Then someone from Switzerland made his own version. Two and a half million views. Link in the bio, sweater for sale."**
 
-🎬 MG-09: "2.46M" pill + shot counter 1/6 … 6/6 while you step through.
+🎬 MG-09: "2.46M" pill.
 
 **2.3** 💻 LAPTOP · Jamaican version @oneshirtisallyouneed, German accounts
 > **"Jamaica has one. Germany has one. Everyone with a shop."**
@@ -139,7 +135,7 @@ All camera. The list is a motion graphic, you don't type or write anything.
 🎬 MG-10: the versions as a row of flags/thumbnails with their view counts.
 
 **2.4** 💻 LAPTOP · type "very Turkish time" into the search, scroll the results
-- Just search, let it sit for two seconds. No need to say anything.
+*Do:* just search and let the empty results sit for two seconds. Say nothing.
 
 ↪ **2.5** 🎥 CAM
 > "Nothing. I couldn't find a single Turkish version."
@@ -157,11 +153,16 @@ All camera. The list is a motion graphic, you don't type or write anything.
 **3.1** 🎥 CAM
 > "Before I design anything, I need the story. The video sells the hoodie, so the video has to work first."
 
-**3.2** 💻 LAPTOP · play the Swiss reel again, pause on every cut
+**3.2** 💻 LAPTOP · Swiss reel again, this time pause on every cut
 > **"I'm copying the structure of the one that went viral, shot by shot. Then I flip the content."**
-- Name each shot as you pause on it: restaurant, the bill, the line, car, chalet, into the camera
 
-🎬 MG-12: the 6-shot grid builds next to the reel: Switzerland column first, then the Turkey column fills in (content below).
+*Do:* pause on each cut and say the short line for it:
+> **"Shot one: two guys in a restaurant."**
+> **"Two: the friend gets the bill and asks if there's a mistake."**
+> **"Three: 'That's just Switzerland, you'll get used to it.'"** (read it deadpan)
+> **"Four: the car. Five: the chalet. Six: the line, straight into the camera."**
+
+🎬 MG-12: shot counter 1/6 … 6/6, and the 6-shot grid builds next to the reel: Switzerland column first, then the Turkey column fills in (content below).
 
 | Shot | Switzerland | Turkey |
 |---|---|---|
@@ -188,19 +189,18 @@ All camera. The list is a motion graphic, you don't type or write anything.
 
 **4.2** 💻 LAPTOP · Claude, paste the request (PROMPTS.md → D1b)
 > **"I'm asking Claude to write the prompt for the design."**
-> **"And here's the most important part: I'm telling Claude not to write words like 'stunning' or 'high quality'. Every AI answers those with the same average image."**
-- Instead: what exactly is in the picture, colours as hex codes, how the print looks
-- Read 1–2 lines of Claude's answer out loud, then copy
+> **"And here's the most important part: I'm telling Claude not to write words like 'stunning' or 'high quality'. Every AI answers those with the same average image. Instead: what exactly is in the picture, colours as hex codes, how the print looks."**
+
+*Do:* read one or two lines of Claude's answer out loud, then copy it.
 
 🎬 MG-14: zoom on the "rules" part of the request; the banned words get struck through.
 
 **4.3** 💻 LAPTOP · Higgsfield, GPT Image 2.5, quality max, 4k, transparent background, paste, generate
-- Show the settings while you click them, say them out loud
+*Do:* say each setting out loud while you click it.
 > **"The original had a dragon. What's Turkey's dragon? Not a flag, not a political symbol: the nazar. The blue eye. It's on every door, every keychain, every taxi in Turkey."** (good line to say while it's generating)
 
 **4.4** 💻 LAPTOP · 4 variants, pick one
-- Honest reaction to each variant
-- Read the text **letter by letter** out loud
+*Do:* react honestly to each variant, then read the text **letter by letter** out loud.
 > **"Someone actually sold a sweater with AI-written German on it, and it was complete nonsense."**
 
 🎬 MG-15: letter-by-letter check, each word gets a ✓ (or a red ✗ if it's wrong).
@@ -232,7 +232,7 @@ All camera. The list is a motion graphic, you don't type or write anything.
 **5.2** 💻 LAPTOP · Claude → host sheet prompt (E1) → Higgsfield, mockup as reference
 > **"I'm putting our hoodie on him right away. That way the video advertises the product without me saying a word."**
 > **"The style: PlayStation 2. Hard polygon edges, blurry textures. If it looks like a game from 2004, nobody thinks it's real, and it stands out from every other AI video."**
-- Honest reaction to the bad takes, say what's wrong and regenerate
+*Do:* react honestly to the bad takes, say what's wrong, regenerate.
 
 🎬 MG-19: labels "FRONT / SIDE / BACK" over the sheet.
 
@@ -247,13 +247,12 @@ All camera. The list is a motion graphic, you don't type or write anything.
 ## Step 6. Build The World · ~2:00
 
 **6.1** 💻 LAPTOP · three location prompts (E3–E5) → three images
-> **"Three places from the story: the lokanta, the coastal road, the terrace. All empty, no people."**
-- Why empty: if there are already people in the image, the video model mixes up who's who later
+> **"Three places from the story: the lokanta, the coastal road, the terrace. All empty, no people. If there are already people in the image, the video model mixes up who's who later."**
 
 🎬 MG-20: the three locations side by side with their shot numbers (1–3, 4, 5–6).
 
 **6.2** 💻 LAPTOP · 15-panel storyboard (F2)
-- Point at panels, say which shot they are
+*Do:* point at the panels with the mouse and say which shot each one is.
 
 ↪ **6.3** 🎥 CAM
 > "If it doesn't work as stills, it won't work as a video. And video is the expensive part."
@@ -265,7 +264,7 @@ All camera. The list is a motion graphic, you don't type or write anything.
 **7.1** 💻 LAPTOP · ElevenLabs website, Voice Design (C)
 > **"Voices. I describe the voice, not the person."**
 > **"And the trick: audio quality like a 2004 game disc. Compressed, no highs, like a cutscene on a tiny TV."**
-- Play the previews, react
+*Do:* play the previews and react.
 
 **7.2** 💻 LAPTOP · Text to Dialogue with the tags (B), play it
 > **"Stage directions in brackets: sighs, pauses, dry. That's the difference between reading and acting."**
@@ -287,7 +286,7 @@ All camera. The list is a motion graphic, you don't type or write anything.
 🎬 MG-23: the six shot blocks highlighted one after another, then the "Keep fixed" block.
 
 **8.3** 💻 LAPTOP · low-res draft first → spot the mistakes → fix the prompt → final
-- Say every mistake you see out loud, and what you change in the prompt
+*Do:* say every mistake you see out loud, and what you change in the prompt.
 
 **8.4** (no recording from you) full screen: the finished reel, uncommented. Captions are set in the edit.
 
@@ -309,7 +308,7 @@ All camera. The list is a motion graphic, you don't type or write anything.
 🎬 MG-24: three cards: **Printify / Printful** (biggest, ship worldwide) · **Gelato / SPOD** (print in Europe, faster here) · **own store / Etsy / Shopify**. Your pick gets highlighted.
 
 **9.4** 💻 LAPTOP · POD dashboard: pick blank, upload print file, set price, order sample
-- Talk through each click
+*Do:* say what you're clicking as you go.
 
 ↪ **9.5** 🎥 CAM
 > "Production costs [FILL], I sell it for [FILL], that leaves me [FILL] per hoodie."
@@ -415,10 +414,10 @@ You don't have to record in video order. Suggested sessions:
 | MG-06 | 1.2 | Money list, 4 cards: AI influencer · UGC ads · digital products · merch |
 | MG-07 | 1.3 | Cards 1–3 crossed out, merch highlighted |
 | MG-08 | 2.1 | "1.9M" pill on the dragon post |
-| MG-09 | 2.2 | "2.46M" pill + shot counter 1/6 … 6/6 |
+| MG-09 | 2.2 | "2.46M" pill |
 | MG-10 | 2.3 | Row of versions (China, Switzerland, Jamaica, Germany) with views |
 | MG-11 | 2.5 | Split screen 🇨🇭 vs 🇹🇷 |
-| MG-12 | 3.2 | 6-shot grid Switzerland vs Turkey |
+| MG-12 | 3.2 | Shot counter 1/6 … 6/6 + 6-shot grid Switzerland vs Turkey |
 | MG-13 | 3.3 | Name tags THE HOST / THE VISITOR |
 | MG-14 | 4.2 | Banned words struck through |
 | MG-15 | 4.4 | Letter-by-letter text check ✓/✗ |
