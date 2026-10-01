@@ -1,10 +1,12 @@
-# Turkish Time: Script + Workflows (v2, 01.10.2026)
+# Turkish Time: Script + Workflows (v3, 01.10.2026)
 
 Source: `Downloads/BRIEFING-CLAUDE (1).md`. Changes in v2 (Schakur's feedback):
 1. **Motif:** a big **nazar (evil eye) surrounded by İznik tulips and carnations** instead of the wolf/tea glass. It's the best-known Turkish symbol and carries no political reading.
 2. **Shirt look like the original:** the original is a large, finely drawn Chinese dragon with white serif text underneath, on black or red ([Etsy](https://www.etsy.com/listing/4573265875/you-met-me-at-a-very-chinese-time-in-my), [TeePublic](https://www.teepublic.com/t-shirts/you-met-me-at-a-very-chinese-time)). We copy that: detailed illustration, not PS2.
 3. **Tools:** Higgsfield API (pay per generation) + Higgs chat for the tutorial on camera. **Seedance 2.5 = one prompt, 19 s, all references** (model allows 4–30 s, image + video + audio references).
 4. **Print:** motif via GPT Image 2.5 with a transparent background → set the text in Figma → mockup via image-to-image.
+
+**v3: sweater instead of hoodie.** The product is a crewneck sweater (no hood, no pocket), like the Swiss one. In every image/video prompt it's called a **"crewneck sweatshirt"**, because "sweater" alone makes image models draw a knitted jumper. On camera you just say "sweater".
 
 Fixed nouns: **the host** = the Turkish man. **The visitor** = the German man. Captions, prices and the shirt line never go into an image or video prompt.
 
@@ -69,28 +71,28 @@ Preview text: `Excuse me, sorry, I think there is a small mistake here. This can
 
 ---
 
-## D. Workflow: hoodie print + shop
+## D. Workflow: sweater print + shop
 
 | # | Step | Tool | Setting |
 |---|---|---|---|
-| 1 | Choose the POD blank **first** (colour as close as possible to faded red) | Printify / Gelato / SPOD | ~ Comfort Colors 1567 "Brick" or similar; check EU production |
+| 1 | Choose the POD blank **first** (colour as close as possible to faded red) | Printify / Gelato / SPOD | ~ Comfort Colors 1566 garment-dyed crewneck in "Brick" or similar; check EU production |
 | 2 | Generate the motif, no text | `gpt_image_2_5` | 2k, 1:1, quality high, **`background: transparent`** |
 | 3 | Set the print file | Figma (I'll build it) | Frame 3600 × 4200 px (= 30 × 35 cm at 300 dpi), motif on top, text below |
 | 4 | Export | Figma | PNG, transparent, 300 dpi |
-| 5 | Mockup via image-to-image | `gpt_image_2_5`, references: blank hoodie photo + print PNG | 2k, 4:5 |
+| 5 | Mockup via image-to-image | `gpt_image_2_5`, references: blank sweater photo + print PNG | 2k, 4:5 |
 | 6 | Upload to the shop + order a sample | Printify | Sample = real photo for the video ending |
 
 ### D1b: request to Claude (on camera in the video)
 
 ```
-Write me an image prompt for GPT Image 2.5 for a hoodie print. Motif: a large Turkish nazar (the blue evil-eye bead) surrounded by İznik tulips and carnations, drawn as detailed as the dragon on the "You met me at a very Chinese time in my life" shirt. Underneath, in serif type: "you met me at a very Turkish time in my life". Rules: no words like premium, stunning, cinematic, high quality, elegant. Describe concrete objects instead of adjectives. All colours as hex codes, two dominant colours far apart on the colour wheel. Flat screenprint look with wear, transparent background, nothing political.
+Write me an image prompt for GPT Image 2.5 for a print on a crewneck sweatshirt. Motif: a large Turkish nazar (the blue evil-eye bead) surrounded by İznik tulips and carnations, drawn as detailed as the dragon on the "You met me at a very Chinese time in my life" shirt. Underneath, in serif type: "you met me at a very Turkish time in my life". Rules: no words like premium, stunning, cinematic, high quality, elegant. Describe concrete objects instead of adjectives. All colours as hex codes, two dominant colours far apart on the colour wheel. Flat screenprint look with wear, transparent background, nothing political.
 ```
 
 ### D2: motif prompt (nazar + İznik flowers + text)
 Higgsfield: GPT Image 2.5 · quality max · 4k · background transparent · 1:1 · 4 variants. Check the text letter by letter; if it's wrong, regenerate, otherwise fix it in Figma.
 
 ```
-Print artwork for the chest of a hoodie, one centred illustration with one line of type underneath, on a transparent background, nothing else. No other text, no numbers, no signature, no frame.
+Print artwork for the chest of a crewneck sweatshirt, one centred illustration with one line of type underneath, on a transparent background, nothing else. No other text, no numbers, no signature, no frame.
 
 The motif: a large Turkish nazar — the blue glass evil-eye bead — seen straight on, as the centre of the design: a deep navy #1B2A4A outer ring, a white ring, a turquoise #2E8B8B ring, and a dark navy pupil with one small curved highlight showing it is made of glass, tiny air bubbles and a slight uneven edge from hand-blown glass. Around the nazar, wrapping it on both sides and below, a dense arrangement of İznik-style flowers drawn like a 16th-century Ottoman tile design: four tall tulips with long pointed petals, three open carnations with serrated edges, curling saz leaves with sharp serrated tips, small rosettes and buds filling the gaps. The flowers in cream #EFE6D5 and Ottoman gold #C9A227 with thin charcoal #23201D linework, a few turquoise #2E8B8B petals echoing the bead.
 
@@ -109,20 +111,20 @@ Spell it exactly like this, letter by letter. The type block is about as wide as
 1. Text, verbatim: `you met me at a very Turkish time in my life`.
 2. Typeface: **EB Garamond** regular (Google Fonts, OFL, commercial use OK), like the white serif on the original.
 3. Two centred lines: `you met me at a very` / `Turkish time in my life`. Width ≈ 85% of the motif, line spacing 1.05, tracking +20.
-4. Colour cream `#EFE6D5` (on the red hoodie it reads like the white of the original, just not as harsh).
+4. Colour cream `#EFE6D5` (on the red sweater it reads like the white of the original, just not as harsh).
 5. Wear: mask the text with the same speckle texture as the motif. Otherwise it looks pasted on.
 6. On DTG/DTF, set the underbase to about 85% so the red shows through and the print looks faded.
 
-### D4: blank hoodie photo (mockup base)
+### D4: blank sweater photo (mockup base)
 
 ```
-Photograph of one heavyweight hoodie lying flat on a slightly rough pale concrete floor #CFCAC2, shot from directly above. 400 gsm brushed-back cotton fleece, garment-dyed and washed, faded Anatolian red #B23A2E with uneven tone: lighter on the raised folds and along the seams, darker inside the creases. Hood folded down behind the neckline, sleeves bent loosely inward, the left cuff turned up once to show the soft fleece inside. Ribbed cuffs and hem slightly wavy from washing, flatlock seams, dropped shoulders, a kangaroo pocket with one soft diagonal fold across it. Matte cotton surface with visible knit texture and a few loose fibres, no sheen. Completely blank: no print, no logo, no neck label, no text anywhere. Soft overcast daylight from a window on the left, a gentle shadow along the right edge of the garment. 50mm lens, f/8, sharp across the whole garment.
+Photograph of one heavyweight crewneck sweatshirt lying flat on a slightly rough pale concrete floor #CFCAC2, shot from directly above. 400 gsm brushed-back cotton fleece, garment-dyed and washed, faded Anatolian red #B23A2E with uneven tone: lighter on the raised folds and along the seams, darker inside the creases. Round ribbed crew neckline lying flat, sleeves bent loosely inward, the left cuff turned up once to show the soft fleece inside. Ribbed collar, cuffs and hem slightly wavy from washing, flatlock seams, dropped shoulders, one soft diagonal fold across the front body. No hood, no pocket, no zip. Matte cotton surface with visible knit texture and a few loose fibres, no sheen. Completely blank: no print, no logo, no neck label, no text anywhere. Soft overcast daylight from a window on the left, a gentle shadow along the right edge of the garment. 50mm lens, f/8, sharp across the whole garment.
 ```
 
 ### D5: mockup image-to-image (references: D4 photo + print PNG from Figma)
 
 ```
-Use the first image as the base photo and keep everything in it unchanged: the hoodie, its colour, the folds, the concrete floor, the light. Place the artwork from the second image onto the chest of the hoodie, centred, about 30 cm wide, top edge 8 cm below the neckline. The print must sit in the fabric, not on top of it: it bends over every fold, darkens inside the creases, breaks slightly where the fleece texture shows through, and has the same matte surface as the cotton — screenprinted ink washed many times, no shine, no flat sticker look. Copy the artwork's shapes, colours and the line of type exactly; do not redraw or respell anything.
+Use the first image as the base photo and keep everything in it unchanged: the sweatshirt, its colour, the folds, the concrete floor, the light. Place the artwork from the second image onto the chest of the sweatshirt, centred, about 30 cm wide, top edge 8 cm below the collar. The print must sit in the fabric, not on top of it: it bends over every fold, darkens inside the creases, breaks slightly where the fleece texture shows through, and has the same matte surface as the cotton — screenprinted ink washed many times, no shine, no flat sticker look. Copy the artwork's shapes, colours and the line of type exactly; do not redraw or respell anything.
 ```
 Check the text letter by letter. If it's wrong: place the print in Photoshop instead (Displace + Multiply). Never publish wrong text.
 
@@ -133,13 +135,13 @@ Check the text letter by letter. If it's wrong: place the print in Photoshop ins
 PS2 style stays for the characters (briefing). The "original look" only applies to the shirt.
 
 ### E1: the host (16:9)
-v4: give the mockup from D5 in as a reference image and replace "completely plain — no print, no graphic, no label" in the prompt with "wearing exactly the printed hoodie from the reference image, the nazar print on the chest".
+v4: give the mockup from D5 in as a reference image and replace "completely plain — no print, no graphic, no label" in the prompt with "wearing exactly the printed crewneck sweatshirt from the reference image, the nazar print on the chest".
 ```
 Character turnaround sheet: three full-body views of the same man standing side by side on a flat mid-grey #8A8580 background — front view, left side profile, back view. Even spacing, feet on one shared ground line, arms relaxed at his sides, neutral standing pose. No text, no labels, no numbers, no logos anywhere on the sheet.
 
 The man: Turkish, mid-thirties, broad stocky build, wide shoulders, thick forearms, weathered mature face with sun creases at the corners of the eyes, full dark beard with a heavy moustache covering the upper lip, short cropped dark hair, deep-set dark eyes under thick eyebrows. Calm deadpan expression, mouth closed, no smile.
 
-Clothing: heavyweight 400 gsm cotton fleece hoodie, garment-washed, faded Anatolian red #B23A2E, completely plain — no print, no graphic, no label. The red is lighter along the seams and cuff edges where the dye has washed out, the hood lies flat on his back, ribbed cuffs pushed a little up the forearms. Dark tobacco-brown #4A3524 work trousers, straight cut, slight wear at the knees. Worn brown leather boots with scuffed toes. A thin gold chain #C9A227 at the neck holding one small glass nazar bead (deep navy #1B2A4A outer ring, white ring, turquoise #2E8B8B centre), the size of a fingernail.
+Clothing: heavyweight 400 gsm cotton fleece crewneck sweatshirt, no hood, garment-washed, faded Anatolian red #B23A2E, completely plain — no print, no graphic, no label. The red is lighter along the seams and cuff edges where the dye has washed out, round ribbed collar sitting close at the base of the neck, ribbed cuffs pushed a little up the forearms. Dark tobacco-brown #4A3524 work trousers, straight cut, slight wear at the knees. Worn brown leather boots with scuffed toes. A thin gold chain #C9A227 at the neck holding one small glass nazar bead (deep navy #1B2A4A outer ring, white ring, turquoise #2E8B8B centre), the size of a fingernail.
 
 Palette: the red #B23A2E and the navy/turquoise of the nazar are the only strong colours; skin, trousers, boots and background stay desaturated.
 
@@ -219,7 +221,7 @@ PS2-era real-time game render: low-poly geometry with visible hard polygon edges
 A 19-second vertical short film in six shots with hard cuts, PS2-era real-time game cutscene look: low-poly geometry with visible hard polygon edges, faceted flat-shaded surfaces, 64-256px low-resolution textures, dithered color gradients, harsh vertex lighting with no rim light, subtle aliasing, slightly stiff game-engine animation, muted saturated palette.
 
 Characters, fixed for the whole film:
-The host (@host) — broad stocky Turkish man, mid-thirties, full dark beard and heavy moustache, plain faded red #B23A2E hoodie with no print, thin gold chain with a small nazar bead. He never smiles.
+The host (@host) — broad stocky Turkish man, mid-thirties, full dark beard and heavy moustache, plain faded red #B23A2E crewneck sweatshirt with no print, thin gold chain with a small nazar bead. He never smiles.
 The visitor (@visitor) — tall thin German man, late twenties, thin rectangular glasses, sunburnt nose, pale blue short-sleeved shirt, silver compact camera on a strap around his neck.
 Voices and timing follow @dialogue.
 
@@ -229,7 +231,7 @@ HARD CUT. SHOT 2 — 3.5–6.5s — same lokanta. Close-up of the visitor from t
 
 HARD CUT. SHOT 3 — 6.5–10.5s — same lokanta. Medium two-shot. The host crosses his arms, face completely flat, sighs. Without looking, he lifts a steel teapot and pours dark amber tea into the visitor's glass; steam rises. The visitor keeps staring at the tiny receipt. The host says, dry and slow: "Kardeşim. That's just Turkey. You'll get used to it."
 
-HARD CUT. SHOT 4 — 10.5–13.0s — coastal road (@road) at dusk. High side angle from the hillside, slow pan following a dark boxy 1990s sedan with no badges driving left to right along the curve. The driver's window is down; the host's forearm in the faded red hoodie sleeve rests on the window frame. City lights glow across the bay and reflect on the water. Sound: engine hum, wind.
+HARD CUT. SHOT 4 — 10.5–13.0s — coastal road (@road) at dusk. High side angle from the hillside, slow pan following a dark boxy 1990s sedan with no badges driving left to right along the curve. The driver's window is down; the host's forearm in the faded red sweatshirt sleeve rests on the window frame. City lights glow across the bay and reflect on the water. Sound: engine hum, wind.
 
 HARD CUT. SHOT 5 — 13.0–16.0s — stone terrace (@terrace) at sunset. Slow lateral dolly left to right. The host stands in the foreground on the left, waist-up, still, looking straight into the camera. Behind him, small and in soft focus, the visitor stands at the low stone wall with his back half turned, holding a tea glass with both hands, looking at the sea and the low sun; his shoulders drop with one long sigh.
 
@@ -237,17 +239,17 @@ HARD CUT. SHOT 6 — 16.0–19.0s — same terrace. Slow push-in from medium sho
 
 Palette for the whole film: faded red #B23A2E and turquoise #2E8B8B dominant; navy #1B2A4A in the dusk shot, gold #C9A227 in the sunset shots; everything else desaturated.
 
-Keep fixed across all shots: both faces, the beard, glasses, sunburn, both outfits, the gold chain and nazar bead, the hoodie stays plain red with no print, the receipt stays tiny, no other main characters.
+Keep fixed across all shots: both faces, the beard, glasses, sunburn, both outfits, the gold chain and nazar bead, the sweatshirt stays plain red with no print, the receipt stays tiny, no other main characters.
 
 No on-screen text, no subtitles, no captions, no logos, no watermark. Any writing on paper, signs or screens is blurred and unreadable.
 ```
 
-**Hoodie in the video:** the host wears the plain red hoodie (Seedance distorts print text). The product shows up after shot 6 as an end card: sample photo or D5 mockup.
+**Sweater in the video:** the host wears the plain red sweater (Seedance distorts print text). The product shows up after shot 6 as an end card: sample photo or D5 mockup.
 
 ### F2: 15-panel storyboard (GPT Image 2.5, 2k, 16:9) · refs: @host @visitor @lokanta @road @terrace
 
 ```
-Storyboard sheet of 15 panels in a grid of 5 columns and 3 rows, thin black gutters, all panels the same size, vertical 9:16 panels. No text, no numbers, no captions, no speech bubbles anywhere. The same two characters in every panel: the host (@host) — broad bearded Turkish man in a plain faded red #B23A2E hoodie with a gold chain and small nazar bead; the visitor (@visitor) — thin German man with glasses, pale blue short-sleeved shirt and a silver camera on a strap.
+Storyboard sheet of 15 panels in a grid of 5 columns and 3 rows, thin black gutters, all panels the same size, vertical 9:16 panels. No text, no numbers, no captions, no speech bubbles anywhere. The same two characters in every panel: the host (@host) — broad bearded Turkish man in a plain faded red #B23A2E crewneck sweatshirt with a gold chain and small nazar bead; the visitor (@visitor) — thin German man with glasses, pale blue short-sleeved shirt and a silver camera on a strap.
 
 Row 1:
 1. Wide two-shot in the lokanta (@lokanta) at night: the host leans back relaxed, the visitor sits upright, two empty tea glasses between them.
@@ -261,7 +263,7 @@ Row 2:
 7. The host pours tea from a steel teapot into the visitor's glass without looking at it.
 8. The visitor still staring at the receipt, a full steaming tea glass beside his hand.
 9. High side view of a dark boxy 1990s sedan on the coastal road (@road) at dusk, city lights across the bay.
-10. Close-up of a red hoodie sleeve resting on the open driver's window, the sea blurred behind.
+10. Close-up of a red sweatshirt sleeve resting on the open driver's window, the sea blurred behind.
 
 Row 3:
 11. Wide shot of the stone terrace (@terrace) at sunset: the host in the foreground left, the visitor small at the wall in the background.

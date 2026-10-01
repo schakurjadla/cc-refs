@@ -1,4 +1,4 @@
-# YouTube Script: Turkish Time (v6.1, 01.10.2026)
+# YouTube Script: Turkish Time (v7, 01.10.2026)
 
 **Format:** "Money experiment" like the reference (LlhTEttKcwQ, 33:19, 4.39M). You only ever do two things: **talk into the camera** or **work on the laptop and talk while you do it**. Nothing analog, no notes on paper, no extra B-roll shoots. Every list, number, table and checklist is a **motion graphic added in the edit**.
 **Tools on screen:** Higgsfield web app (no API in the video) · Claude for prompts · ElevenLabs website for voices.
@@ -34,7 +34,7 @@ Intro
 Step 1. Find The Money
 Step 2. Find The Trend
 Step 3. Write The Story
-Step 4. Design The Hoodie
+Step 4. Design The Sweater
 Step 5. Design The Character
 Step 6. Build The World
 Step 7. Give Them A Voice
@@ -47,16 +47,16 @@ Step 11. Count The Profits
 
 ## Title (the number goes in only after the 7 days, and only if it's real)
 1. `I Tried Selling AI Merch So You Don't Have To`
-2. `I Made $[FILL] Selling a Hoodie Designed by AI` (only if there was a sale)
+2. `I Made $[FILL] Selling a Sweater Designed by AI` (only if there was a sale)
 3. `Can AI Actually Make You Money? (7-Day Merch Test)`
 
-**Thumbnail:** you leaning back on the left, on the right a pill with the AI icon + `$[FILL]/week` or `€0?`, plus the PS2 host in the red hoodie.
+**Thumbnail:** you leaning back on the left, on the right a pill with the AI icon + `$[FILL]/week` or `€0?`, plus the PS2 host in the red sweater.
 
 ---
 
 ## Intro · ~0:50
 
-Keep it broad. The hook is "can AI make you money?", not hoodies. What the idea is only comes out in Step 1 and 2.
+Keep it broad. The hook is "can AI make you money?", not sweaters. What the idea is only comes out in Step 1 and 2.
 
 **0.1** 🎥 CAM
 > "Everyone says you can make money with AI right now."
@@ -144,7 +144,7 @@ All camera. The list is a motion graphic, you don't type or write anything.
 ↪ **2.5** 🎥 CAM
 > "Nothing. I couldn't find a single Turkish version."
 > "And honestly, Turkey is the perfect flip. In Switzerland you pay a fortune and you get a tiny plate. In Turkey you get a whole table full of food, and the bill is so small you think they forgot something."
-> "So here's the plan. A Turkish character, a hoodie that says 'You met me at a very Turkish time in my life,' and a video just like the Swiss one. Just flipped."
+> "So here's the plan. A Turkish character, a sweater that says 'You met me at a very Turkish time in my life,' and a video just like the Swiss one. Just flipped."
 
 🎬 MG-11: split screen "🇨🇭 big bill, tiny plate" vs "🇹🇷 full table, tiny bill" on the flip sentence.
 
@@ -155,7 +155,7 @@ All camera. The list is a motion graphic, you don't type or write anything.
 ## Step 3. Write The Story · ~2:00
 
 **3.1** 🎥 CAM
-> "But before I design anything, I need the story. Because the video is what sells the hoodie. So the video has to work first."
+> "But before I design anything, I need the story. Because the video is what sells the sweater. So the video has to work first."
 
 **3.2** 💻 LAPTOP · Swiss reel again, this time pause on every cut
 > **"So I'm going back to the Swiss video, and I'm gonna copy the structure. Shot by shot. And then I just flip what happens."**
@@ -186,10 +186,10 @@ All camera. The list is a motion graphic, you don't type or write anything.
 
 ---
 
-## Step 4. Design The Hoodie · ~5:00
+## Step 4. Design The Sweater · ~5:00
 
 **4.1** 🎥 CAM
-> "Okay. First the hoodie."
+> "Okay. First the sweater."
 
 **4.2** 💻 LAPTOP · Claude (request: PROMPTS.md → D1b)
 > **"So first I head over to Claude, and I ask it to write me a prompt for the design."**
@@ -221,15 +221,15 @@ While it's generating:
 
 🎬 MG-15: letter-by-letter check, each word gets a ✓ (or a red ✗ if it's wrong).
 
-**4.5** 💻 LAPTOP · Claude → blank hoodie prompt (D4) → Higgsfield
-> **"Now I need the actual hoodie. Back to Claude."**
+**4.5** 💻 LAPTOP · Claude → blank sweater prompt (D4) → Higgsfield
+> **"Now I need the actual sweater. Back to Claude."**
 > **"I want it washed, faded, in that Turkish red. And here's a little trick: I tell it the fabric weight. 400 grams. If you don't, AI clothes always look like plastic."**
 > **"Copy, back to Higgsfield, generate."**
 
 🎬 MG-16: label "400 gsm" on the fabric in the result.
 
 **4.6** 💻 LAPTOP · both images into Claude → mockup prompt (D5) → Higgsfield with both as references
-> **"And now I put the two together. I drag both images into Claude and ask it for a prompt that puts the design on the hoodie."**
+> **"And now I put the two together. I drag both images into Claude and ask it for a prompt that puts the design on the sweater."**
 > **"Back to Higgsfield, both images in as references, and…"**
 
 *Do:* react to the result.
@@ -238,8 +238,8 @@ While it's generating:
 🎬 MG-17: zoom/circle on a fold where the print bends.
 
 ↪ **4.7** 🎥 CAM
-> "Okay, but here's the thing. This is a picture of a hoodie. It's not a hoodie."
-> "To actually sell this, I need three things: the design as a file, a real hoodie in the right color, and a sample I can hold in my hands."
+> "Okay, but here's the thing. This is a picture of a sweater. It's not a sweater."
+> "To actually sell this, I need three things: the design as a file, a real sweater in the right color, and a sample I can hold in my hands."
 
 🎬 MG-18: checklist "print file / blank / sample". Print file gets ✓ right away (cut in the transparent motif from 4.4), the other two stay open until Step 9.
 
@@ -253,9 +253,9 @@ While it's generating:
 
 **5.2** 💻 LAPTOP · Claude → host sheet prompt (E1) → Higgsfield, mockup as reference
 > **"Back to Claude for the host."**
-> **"And I'm giving it the hoodie right away. So he's wearing our hoodie. That way the video is basically an ad, without me saying a word."**
+> **"And I'm giving it the sweater right away. So he's wearing our sweater. That way the video is basically an ad, without me saying a word."**
 > **"And the style: PlayStation 2. Like a game from 2004. Hard edges, blurry textures. Nobody's gonna think that's real, and it looks different from every other AI video out there."**
-> **"Over to Higgsfield, the hoodie as a reference, generate."**
+> **"Over to Higgsfield, the sweater as a reference, generate."**
 
 *Do:* react honestly to the bad takes, say what's off, regenerate.
 
@@ -315,7 +315,7 @@ While it's generating:
 
 **8.2** 💻 LAPTOP · scroll through the prompt from Claude (F)
 > **"The prompt is from Claude again. Every shot has its time, the camera move, and what each character is doing."**
-> **"And at the end there's a list of stuff that's not allowed to change. Same faces, same beard, same hoodie."**
+> **"And at the end there's a list of stuff that's not allowed to change. Same faces, same beard, same sweater."**
 
 🎬 MG-23: the six shot blocks highlighted one after another, then the "Keep fixed" block.
 
@@ -334,7 +334,7 @@ While it's generating:
 ## Step 9. Open The Shop · ~2:30
 
 **9.1** 🎥 CAM
-> "Okay, the video's done. Now I need somewhere people can actually buy the hoodie."
+> "Okay, the video's done. Now I need somewhere people can actually buy the sweater."
 
 **9.2** 💻 LAPTOP · the Swiss/Chinese/German profiles
 > **"So let's see what the others did."**
@@ -349,10 +349,10 @@ While it's generating:
 
 **9.4** 💻 LAPTOP · POD dashboard
 > **"I'm going with [FILL]."**
-> **"So I pick the hoodie… upload the design… set the price… and order a sample."**
+> **"So I pick the sweater… upload the design… set the price… and order a sample."**
 
 ↪ **9.5** 🎥 CAM
-> "So making one costs me [FILL]. I sell it for [FILL]. That leaves me [FILL] per hoodie."
+> "So making one costs me [FILL]. I sell it for [FILL]. That leaves me [FILL] per sweater."
 > "And I'm ordering one for myself. I'm not gonna sell something I've never held."
 
 🎬 MG-25: price math (cost − price = margin). MG-18 checklist returns: blank ✓, sample "ordered".
@@ -399,7 +399,7 @@ Almost all camera. If the sample has arrived, hold it in this part (same desk, s
 🎬 MG-28: the ledger: generations · ElevenLabs · sample · shop = total costs; sales × margin = profit.
 
 **11.2** 🎥 CAM, the version that's true:
-- Sale: "A cartoon I made in one week sold a hoodie to a total stranger. And I never touched a box."
+- Sale: "A cartoon I made in one week sold a sweater to a total stranger. And I never touched a box."
 - Zero: "Zero. And yeah, I'm showing you, because most videos like this would just cut this part."
 
 **11.3** 🎥 CAM
@@ -484,6 +484,6 @@ Plus on every 💻 part: zoom in on what you're clicking or reading (the screen 
 
 ## Short-form for this video (promotes the long-form, like Kaye)
 
-1. **The PS2 reel itself:** on the new Turkish account. That's the "product". It sells the hoodie, not the YouTube video.
-2. **Tutorial short on @by.jadla** (IG + TikTok, 30–45 s, Kaye style): hook "I made an AI character sell hoodies", 3–4 steps in fast cuts (Claude prompt → Higgsfield → hoodie → PS2 character → reel), end: "Full video on YouTube. Comment TURKEY and I'll send you the link + all prompts." ConveyDM sends the YouTube link + prompt PDF. Cut it from the same footage, nothing extra to record.
+1. **The PS2 reel itself:** on the new Turkish account. That's the "product". It sells the sweater, not the YouTube video.
+2. **Tutorial short on @by.jadla** (IG + TikTok, 30–45 s, Kaye style): hook "I made an AI character sell sweaters", 3–4 steps in fast cuts (Claude prompt → Higgsfield → sweater → PS2 character → reel), end: "Full video on YouTube. Comment TURKEY and I'll send you the link + all prompts." ConveyDM sends the YouTube link + prompt PDF. Cut it from the same footage, nothing extra to record.
 3. **Posting order:** long-form goes online first, the tutorial short the same day, the PS2 reel in parallel on the Turkish account (it runs independently).
