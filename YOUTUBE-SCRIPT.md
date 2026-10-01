@@ -1,4 +1,4 @@
-# YouTube Script: Turkish Time (v6, 01.10.2026)
+# YouTube Script: Turkish Time (v6.1, 01.10.2026)
 
 **Format:** "Money experiment" like the reference (LlhTEttKcwQ, 33:19, 4.39M). You only ever do two things: **talk into the camera** or **work on the laptop and talk while you do it**. Nothing analog, no notes on paper, no extra B-roll shoots. Every list, number, table and checklist is a **motion graphic added in the edit**.
 **Tools on screen:** Higgsfield web app (no API in the video) · Claude for prompts · ElevenLabs website for voices.
@@ -54,38 +54,36 @@ Step 11. Count The Profits
 
 ---
 
-## Intro · ~1:10
+## Intro · ~0:50
+
+Keep it broad. The hook is "can AI make you money?", not hoodies. What the idea is only comes out in Step 1 and 2.
 
 **0.1** 🎥 CAM
-> "So people are making real money right now with hoodies that just have one sentence on them. No stock, no factory. Just an AI video and a link in the bio."
+> "Everyone says you can make money with AI right now."
 
-🎬 MG-01 over the line: screenshots of the dragon shirt, the Swiss reel, a shop page, popping in one after another.
+🎬 MG-01: fast montage of other creators' clips and thumbnails: "I made $10k with AI", "passive income with AI" … You never claim it yourself.
 
-**0.2** (no recording from you)
-🎬 MG-02: montage of other creators' clips saying "I made X with AI / print on demand". You never claim it yourself.
+**0.2** 🎥 CAM
+> "But does that actually work? Or is it just hype?"
 
 **0.3** 🎥 CAM
-> "But does that actually work? Or is it just AI slop with a shop link nobody ever clicks?"
+> "I'm a student. One laptop, no budget. And honestly? I don't really believe it."
 
 **0.4** 🎥 CAM
-> "Quick thing about me: I study media art in Germany, I usually make stuff by hand, and I've got one laptop and basically no budget."
-> "And honestly? I don't think a cartoon can sell a hoodie."
+> "So I'm gonna try it myself. Seven days."
+> "And if I make nothing, I delete everything. On camera."
+
+🎬 MG-02: "7 DAYS" stamp.
 
 **0.5** 🎥 CAM
-> "So I'm gonna test it. Seven days. One AI character, one hoodie, one shop."
-> "And if I don't sell a single one in seven days, I delete everything. On camera."
-
-🎬 MG-03: "7 DAYS · 1 CHARACTER · 1 HOODIE · 1 SHOP" stamps in word by word.
-
-**0.6** 🎥 CAM
-> "There are three rules."
-> "I spend less than a hundred euros. Everything included."
-> "No stock. It's print on demand, so I never have to touch a box."
+> "Three rules."
+> "Less than a hundred euros."
+> "Only what I can do with this laptop."
 > "And at the end I show you the real numbers. Even if it's zero."
 
-🎬 MG-04: rule cards 1 / 2 / 3, each one appears on its sentence. Leave a short pause between the sentences so the cards have room.
+🎬 MG-03: rule cards 1 / 2 / 3, one per sentence. Short pause between the sentences.
 
-**0.7** 🎥 CAM
+**0.6** 🎥 CAM
 > "Okay. Let's start the timer."
 
 🎬 MG-05: 7-day counter appears and stays in the corner for the whole video.
@@ -451,11 +449,10 @@ You don't have to record in video order. Suggested sessions:
 
 | ID | Beat | What |
 |---|---|---|
-| MG-01 | 0.1 | Screenshots pop in: dragon shirt, Swiss reel, shop page |
-| MG-02 | 0.2 | Montage of other creators' money claims |
-| MG-03 | 0.5 | "7 DAYS · 1 CHARACTER · 1 HOODIE · 1 SHOP" |
-| MG-04 | 0.6 | Rule cards 1/2/3 |
-| MG-05 | 0.7 → end | 7-day counter in the corner (DAY 1 … DAY 7) |
+| MG-01 | 0.1 | Montage of other creators' "money with AI" clips and thumbnails |
+| MG-02 | 0.4 | "7 DAYS" stamp |
+| MG-03 | 0.5 | Rule cards 1/2/3 |
+| MG-05 | 0.6 → end | 7-day counter in the corner (DAY 1 … DAY 7) |
 | MG-06 | 1.2 | Money list, 4 cards: AI influencer · UGC ads · digital products · merch |
 | MG-07 | 1.3 | Cards 1–3 crossed out, merch highlighted |
 | MG-08 | 2.1 | "1.9M" pill on the dragon post |
